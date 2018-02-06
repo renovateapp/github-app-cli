@@ -1,0 +1,16 @@
+{
+  "name": "@renovate/github-app-cli",
+  "version": "0.0.1",
+  "description": "GitHub App CLI wrapper for Renovate",
+  "main": "index.js",
+  "repository": "https://github.com/renovateapp/github-app-cli.git",
+  "author": "Rhys Arkins <rhys@arkins.net>",
+  "license": "MIT",
+  "bin": {
+    "renovate-gh-app": "./cli.js"
+  },
+  "private": false,
+  "dependencies": {
+    "renovate": "11.18.6"
+  }
+}
