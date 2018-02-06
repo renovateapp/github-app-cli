@@ -24,8 +24,7 @@
   },
   "files": ["lib"],
   "dependencies": {
-    "bunyan": "1.8.12",
-    "gh-got": "7.0.0",
+    "got": "8.0.3",
     "jsonwebtoken": "8.1.1",
     "renovate": "11.18.6"
   },
