@@ -1,16 +1,58 @@
 {
   "name": "@renovate/github-app-cli",
-  "version": "0.0.1",
+  "version": "0.0.0-semantic-release",
+  "private": false,
   "description": "GitHub App CLI wrapper for Renovate",
   "main": "index.js",
   "repository": "https://github.com/renovateapp/github-app-cli.git",
   "author": "Rhys Arkins <rhys@arkins.net>",
   "license": "MIT",
   "bin": {
-    "renovate-gh-app": "./cli.js"
+    "renovate-gh-app": "./lib/index.js"
   },
-  "private": false,
+  "scripts": {
+    "lint-fix": "eslint --fix lib test",
+    "lint": "eslint lib test",
+    "prettier": "prettier \"**/*.{js,json,md}\" --write",
+    "start": "node lib/index | bunyan",
+    "test-dirty": "git diff --exit-code",
+    "test": "npm run prettier -- --list-different && npm run lint"
+  },
+  "engines": {
+    "node": ">=8.9.4",
+    "npm": "5"
+  },
+  "files": ["lib"],
   "dependencies": {
+    "bunyan": "1.8.12",
+    "gh-got": "7.0.0",
+    "jsonwebtoken": "8.1.1",
     "renovate": "11.18.6"
+  },
+  "devDependencies": {
+    "eslint": "4.17.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-promise": "3.6.0",
+    "prettier": "1.10.2",
+    "semantic-release": "11.2.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "release": {
+    "branch": "master",
+    "analyzeCommits": {
+      "preset": "angular",
+      "releaseRules": [
+        {
+          "type": "docs",
+          "scope": "readme.md",
+          "release": "patch"
+        }
+      ]
+    }
   }
 }
