@@ -1652,7 +1652,11 @@ combined-stream@^1.0.5, combined-stream@~1.0.5:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@2.14.0, commander@^2.11.0, commander@^2.9.0:
+commander@2.14.1:
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.14.1.tgz#2235123e37af8ca3c65df45b026dbd357b01b9aa"
+
+commander@^2.11.0, commander@^2.9.0:
   version "2.14.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.14.0.tgz#7b25325963e6aace20d3a9285b09379b0c2208b5"
 
@@ -5640,9 +5644,9 @@ rename-overwrite@^1.0.0, rename-overwrite@^1.0.1:
     rimraf "^2.6.1"
     util.promisify "^1.0.0"
 
-renovate@11.18.6:
-  version "11.18.6"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-11.18.6.tgz#5ec098d1c2478b225d9c811e5b9932f6629d813a"
+renovate@11.20.11:
+  version "11.20.11"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-11.20.11.tgz#620de267319ce85f95641be86a6bd0fe410ec0ad"
   dependencies:
     "@yarnpkg/lockfile" "1.0.0"
     bunyan "1.8.12"
@@ -5650,7 +5654,7 @@ renovate@11.18.6:
     chalk "2.3.0"
     changelog "1.4.1"
     child-process-promise "2.2.1"
-    commander "2.14.0"
+    commander "2.14.1"
     compare-versions "3.1.0"
     conventional-commits-detector "0.1.1"
     convert-hrtime "2.0.0"
