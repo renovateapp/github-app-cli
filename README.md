@@ -2,8 +2,9 @@
 
 This is a GitHub App CLI wrapper around Renovate.
 
-It requires the following two env variables to be defined:
+It requires the following three env variables to be defined:
 
+* `RENOVATE_ENDPOINT`
 * `RENOVATE_APP_ID`
 * `RENOVATE_APP_KEY`
 
