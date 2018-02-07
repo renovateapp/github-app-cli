@@ -1,0 +1,40 @@
+notifications:
+  email: false
+
+language: node_js
+
+node_js:
+  - "8"
+
+sudo: false
+
+branches:
+  only:
+  - master
+
+if: tag IS blank
+
+before_install:
+  - curl -o- -L https://yarnpkg.com/install.sh | bash
+  - export PATH="$HOME/.yarn/bin:$PATH"
+
+cache:
+  yarn: true
+  directories:
+    - ".cache"
+    - ".eslintcache"
+    - "node_modules"
+
+script:
+  - yarn run prettier -- --list-different
+  - yarn run lint
+
+after_success:
+  - yarn run codecov
+
+deploy:
+  provider: script
+  script: yarn run semantic-release
+  skip_cleanup: true
+  on:
+    branch: master
