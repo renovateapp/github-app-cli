@@ -1,6 +1,9 @@
 {
   "extends": [
     "config:base",
-    ":automergeMinor"
-  ]
+  ],
+  "automerge": true,
+  "major": {
+    "automerge": false
+  }
 }
