@@ -5157,9 +5157,9 @@ rename-overwrite@^1.0.0:
     rimraf "^2.6.1"
     util.promisify "^1.0.0"
 
-renovate@11.23.7:
-  version "11.23.7"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-11.23.7.tgz#61af6829e8e832271da014e994a372df3afc3452"
+renovate@11.23.10:
+  version "11.23.10"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-11.23.10.tgz#f0ab9606d60ddb31521577a3e50d38125392afc9"
   dependencies:
     "@yarnpkg/lockfile" "1.0.0"
     bunyan "1.8.12"
