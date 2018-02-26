@@ -3642,9 +3642,9 @@ registry-url@^3.0.3:
   dependencies:
     rc "^1.0.1"
 
-renovate@11.25.4:
-  version "11.25.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-11.25.4.tgz#b7c75c02661d5168883d1c13b3f3a411877b8e51"
+renovate@11.25.5:
+  version "11.25.5"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-11.25.5.tgz#c0f3261f07851c94db73edc767bda2a7c286f91b"
   dependencies:
     "@yarnpkg/lockfile" "1.0.0"
     bunyan "1.8.12"
@@ -3691,7 +3691,7 @@ renovate@11.25.4:
     traverse "0.6.6"
     upath "1.0.2"
     vso-node-api "6.3.2"
-    yarn "1.3.2"
+    yarn "1.5.0"
 
 repeat-string@^1.5.2:
   version "1.6.1"
@@ -4660,6 +4660,6 @@ yargs@~3.10.0:
     decamelize "^1.0.0"
     window-size "0.1.0"
 
-yarn@1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.3.2.tgz#5939762581b5b4ddcd3418c0f6be42df3aee195f"
+yarn@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.5.0.tgz#7d57df19832984f246f98ce9d0f254dd74f5a9cb"
