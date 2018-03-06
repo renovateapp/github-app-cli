@@ -28,7 +28,7 @@
   "dependencies": {
     "got": "8.2.0",
     "jsonwebtoken": "8.2.0",
-    "renovate": "11.29.3"
+    "renovate": "11.30.0"
   },
   "devDependencies": {
     "codecov": "3.0.0",
