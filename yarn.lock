@@ -3412,9 +3412,9 @@ pluralize@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
 
-pnpm@1.36.1:
-  version "1.36.1"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-1.36.1.tgz#43537276c39cc2d9e749d1fd7a3c159b2db39877"
+pnpm@1.37.3:
+  version "1.37.3"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-1.37.3.tgz#592f62fb50633506494bd683a0533a95520ef968"
 
 prelude-ls@~1.1.2:
   version "1.1.2"
@@ -3735,9 +3735,9 @@ registry-url@^3.0.3:
   dependencies:
     rc "^1.0.1"
 
-renovate@11.41.6:
-  version "11.41.6"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-11.41.6.tgz#ec063b78e7d7249a49f14d0e5be1b61a52eba3db"
+renovate@11.41.8:
+  version "11.41.8"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-11.41.8.tgz#5d9bda0ddcc9f97fc793dda7044eeb5abf4b57c2"
   dependencies:
     "@yarnpkg/lockfile" "1.0.0"
     bunyan "1.8.12"
@@ -3772,7 +3772,7 @@ renovate@11.41.6:
     npm "5.8.0"
     openpgp "2.6.2"
     parse-link-header "1.0.1"
-    pnpm "1.36.1"
+    pnpm "1.37.3"
     registry-auth-token "3.3.2"
     root-require "0.3.1"
     semver "5.5.0"
