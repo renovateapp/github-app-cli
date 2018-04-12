@@ -37,7 +37,7 @@
     "eslint-config-prettier": "2.9.0",
     "eslint-plugin-import": "2.10.0",
     "eslint-plugin-promise": "3.7.0",
-    "prettier": "1.11.1",
+    "prettier": "1.12.0",
     "semantic-release": "12.4.1"
   },
   "prettier": {
