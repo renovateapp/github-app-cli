@@ -26,6 +26,7 @@
     "lib"
   ],
   "dependencies": {
+    "@sindresorhus/is": "0.8.0",
     "got": "8.3.0",
     "jsonwebtoken": "8.2.1",
     "renovate": "11.49.5"
