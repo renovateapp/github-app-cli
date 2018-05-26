@@ -39,7 +39,7 @@
     "eslint-plugin-import": "2.12.0",
     "eslint-plugin-promise": "3.8.0",
     "prettier": "1.12.1",
-    "semantic-release": "12.4.1"
+    "semantic-release": "15.5.0"
   },
   "prettier": {
     "singleQuote": true,
