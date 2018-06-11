@@ -4091,9 +4091,9 @@ pluralize@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
 
-pnpm@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-2.2.2.tgz#23d5ed8d7c5133ad46b4ac7b0ee63cbe7bdec688"
+pnpm@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-2.4.0.tgz#54c27537e831f91d5afe63320a5aa2df597efe84"
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -4424,9 +4424,9 @@ registry-url@^3.0.3:
   dependencies:
     rc "^1.0.1"
 
-renovate@12.51.13:
-  version "12.51.13"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-12.51.13.tgz#373efc7001ab91f1f69d88ee0e3bc37242166e2d"
+renovate@12.51.16:
+  version "12.51.16"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-12.51.16.tgz#2cf63586a8e088d221c6cb0411535095fb2f4367"
   dependencies:
     "@renovate/pep440" "0.2.0"
     "@sindresorhus/is" "0.9.0"
@@ -4467,7 +4467,7 @@ renovate@12.51.13:
     openpgp "2.6.2"
     p-all "1.0.0"
     parse-link-header "1.0.1"
-    pnpm "2.2.2"
+    pnpm "2.4.0"
     registry-auth-token "3.3.2"
     root-require "0.3.1"
     safe-regex "1.1.0"
