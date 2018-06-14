@@ -1549,6 +1549,12 @@ fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
 
+fast-xml-parser@3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-3.10.0.tgz#cea8fb0960ce5b43e2ae37379fbdf75ed3107c1f"
+  dependencies:
+    nimnjs "^1.3.2"
+
 figgy-pudding@^3.0.0, figgy-pudding@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.1.0.tgz#a77ed2284175976c424b390b298569e9df86dd1e"
@@ -2997,6 +3003,10 @@ lru-cache@^4.1.3:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
+luxon@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.2.1.tgz#5c4948d141939c2b2820f0c3a99276932245efb1"
+
 make-dir@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-1.1.0.tgz#19b4369fe48c116f53c2af95ad102c0e39e85d51"
@@ -3349,6 +3359,21 @@ nerf-dart@^1.0.0:
 nice-try@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.4.tgz#d93962f6c52f2c1558c0fbda6d512819f1efe1c4"
+
+nimn-date-parser@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/nimn-date-parser/-/nimn-date-parser-1.0.0.tgz#4ce55d1fd5ea206bbe82b76276f7b7c582139351"
+
+nimn_schema_builder@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/nimn_schema_builder/-/nimn_schema_builder-1.1.0.tgz#b370ccf5b647d66e50b2dcfb20d0aa12468cd247"
+
+nimnjs@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/nimnjs/-/nimnjs-1.3.2.tgz#a6a877968d87fad836375a4f616525e55079a5ba"
+  dependencies:
+    nimn-date-parser "^1.0.0"
+    nimn_schema_builder "^1.0.0"
 
 node-emoji@^1.4.1:
   version "1.8.1"
@@ -4424,9 +4449,9 @@ registry-url@^3.0.3:
   dependencies:
     rc "^1.0.1"
 
-renovate@12.53.0:
-  version "12.53.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-12.53.0.tgz#ac0495bb00e253bf936083c8063fe34ebad88ad5"
+renovate@12.55.0:
+  version "12.55.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-12.55.0.tgz#1b63f438ea40412ffc1c2c18fbf98a62b5ec220f"
   dependencies:
     "@renovate/pep440" "0.2.0"
     "@sindresorhus/is" "0.9.0"
@@ -4446,6 +4471,7 @@ renovate@12.53.0:
     detect-indent "5.0.0"
     email-addresses "3.0.1"
     fast-clone "1.5.3"
+    fast-xml-parser "3.10.0"
     fs-extra "6.0.1"
     get-installed-path "4.0.8"
     gh-got "7.0.0"
@@ -4459,6 +4485,7 @@ renovate@12.53.0:
     json-stringify-pretty-compact "1.2.0"
     later "1.2.0"
     lodash "4.17.10"
+    luxon "1.2.1"
     markdown-it "8.4.1"
     minimatch "3.0.4"
     moment "2.22.2"
