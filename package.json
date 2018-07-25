@@ -29,7 +29,7 @@
     "@sindresorhus/is": "0.11.0",
     "got": "8.3.2",
     "jsonwebtoken": "8.3.0",
-    "renovate": "13.32.7"
+    "renovate": "13.33.0"
   },
   "devDependencies": {
     "codecov": "3.0.4",
